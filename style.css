@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+.content h1{
+    font-size: 50px;
+    margin-top:13%;
+    color: red; 
+}
+.content p{
+    font-size: 25px;
+    margin: 10px auto;
+    font-weight:100;
+    line-height: 25px;
+    color: brown;
+}

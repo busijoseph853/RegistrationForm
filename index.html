@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor="cyan"> 
+        <div class="content">
+            <h1><b>Blood Donation Camp</b></h1>
+            <p><b>Registration Form</b></p>
+        </div>
+        <form   action="connect.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name" required/><br> <br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required/><br> <br>
+            
+            <label for="phone">Phone:</label><br>
+            <input type="text" name="phone" id="phone" required/><br> <br>
+            
+            <label for="bgroup">Group:</label><br>
+            <input type="text" name="bgroup" id="bgroup" required/><br> <br>
+            
+            <input type="Submit" name="sumit" id="submit"/>
+        </form>
+        
+       
+    </body>
+</html>
